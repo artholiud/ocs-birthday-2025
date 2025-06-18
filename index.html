@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Numărătoare aniversară</title>
+  <link rel="icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="window">
+    <div class="topbar">
+      <img src="assets/icon.svg">
+      <span>Numărătoare aniversară</span>
+    </div>
+
+    <div class="content">
+      <div class="text-content">
+        <h1>Ziua ta de naștere va fi în:</h1>
+        <h1 id="countdown">Oops, ceva nu a mers bine!</h1>
+        <h5 class="hovering">Între timp, ascultă ceva:</h5>
+      </div>
+      
+      <div class="portal-content">
+        <iframe
+          src="https://open.spotify.com/embed/artist/5HXGX4FVy8ysaXF8oqcHif"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+
+        <img id="artist-img" src="assets/artist.png">
+
+        <div id="text-box"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
